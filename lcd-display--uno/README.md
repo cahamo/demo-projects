@@ -2,7 +2,7 @@
 
 This project demonstrates how to use a LCD displays that are compatible with the Hitachi HD44780 driver using a 16 pin interface.
 
-The source code presented here accompanies the <a href="https://cahamo.delphidabbler.com/demos/lcd">LCD Display Demo</a> page on the cahamo website.
+The source code presented here accompanies the [LCD Display Demo](https://cahamo.delphidabbler.com/demos/lcd-display) page on the cahamo website.
 
 The code was developed using PlatformIO within VSCode and is targeted at an Arduino Uno.
 

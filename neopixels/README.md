@@ -12,4 +12,4 @@ The projects can be found in the following sub directories:
 
 All three projects were developed using PlatformIO within VSCode and is targeted at an Arduino Uno.
 
-The code accompanies the <a href="https://cahamo.delphidabbler.com/demos/neopixels">&quot;Neopixels&quot; Demos</a> page on the cahamo website.
+The code accompanies the ["Neopixels" Demos](https://cahamo.delphidabbler.com/demos/neopixels) page on the cahamo website.

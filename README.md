@@ -11,3 +11,5 @@ Source code of various microcontroller demo projects featured on the [cahamo web
 * &quot;Neopixel&quot; demos - a collection of three demo programs that work with neopixel rings and matrices.
 
 * LCD display demo (targetted at Arduino Uno). Demonstrates how to use LCD displays that are compatible with the Hitachi HD44780 driver using a 16 pin interface.
+
+* TTP223 touch button module demo. Shows how to read the state of the touch button using an Arduino Uno.

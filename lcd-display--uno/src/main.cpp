@@ -99,6 +99,7 @@ void setup() {
     screen[i] = "";
   }
 
+  // Display poem
   while (nextWord < JLENGTH) {
     for (unsigned int i = 0; i < ROWS - 1; i++) {
       screen[i] = screen[i+1];
@@ -109,8 +110,21 @@ void setup() {
     delay(SCROLL_DELAY);
   }
 
+  // Slowly overwrite text with asterisks until screen is full
+  for (unsigned i = 0; i < ROWS; i++) {
+    for (unsigned j = 0; j < COLUMNS; j++) {
+      lcd.setCursor(j, i);
+      lcd.print("*");
+      delay(50);
+    }
+  }
+
 }
 
 void loop() {
-  // Do nothing to do: all code is in setup()
+  // Flash screen full of asterisks
+  lcd.noDisplay();
+  delay(500);
+  lcd.display();
+  delay(500);
 }
